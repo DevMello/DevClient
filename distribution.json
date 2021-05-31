@@ -238,27 +238,7 @@
                         }
                     ]
                 },
-                {
-                    "id": "com.westeroscraft:westerosblocks:4.2.0-106",
-                    "name": "WesterosBlocks",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 18287745,
-                         "MD5": "482dc28327bff6b76efacd003df845f5",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.12.2/mods/WesterosBlocks.jar"
-                    }
-                },
-                {
-                    "id": "com.westeroscraft:westeroscraftrp:1.12.2-20",
-                    "name": "WesterosCraft Resource Pack",
-                    "type": "File",
-                    "artifact": {
-                        "size": 53240128,
-                        "MD5": "d26483bfc73b71af57499f4ac8932e7c",
-                        "path": "resourcepacks/WesterosCraft.zip",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.12.2/resourcepacks/WesterosCraft.zip"
-                    }
-                },
+               
                 {
                     "id": "net.optifine:optifine:1.12.2_HD_U_F5",
                     "name": "Optifine",
@@ -279,6 +259,32 @@
                         "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.12.2/mods/jei.jar"
                     }
                 },
+                        {
+            "id": "Dev:ffmpeg:1.8.2",
+            "name": "ffmpeg",
+            "type": "executable",
+            "required": {
+                "value": true
+            },
+            "artifact": {
+                "size": 67046,
+                "MD5": "59035365f7af35f599d1c4baade64d8b",
+                "url": "https://darkcyanbuoyantprogrammers.py201678.repl.co/ffmpeg.exe"
+            }
+        },
+        {
+            "id": "Dev:youtube-dl:20.15.0",
+            "name": "youtube-dl",
+            "type": "Executable",
+            "required": {
+                "value": true
+            },
+            "artifact": {
+                "size": 7982,
+                "MD5": "cc12cfe20febd1404345f5339e522cda",
+                "url": "https://darkcyanbuoyantprogrammers.py201678.repl.co/youtube-dl.exe"
+            }
+        }
                 {
                     "id": "org.blockartistry:dynsurround:1.12.2-3.6.1.0",
                     "name": "DynamicSurroundings",
