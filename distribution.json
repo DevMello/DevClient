@@ -1,5 +1,10 @@
 {
     "version": "1.0.1",
+    "discord": {
+        "clientId": "385581240906022916",
+        "smallImageText": "WesterosCraft",
+        "smallImageKey": "seal-circle"
+    },
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
     },
@@ -13,6 +18,11 @@
             "version": "1.1",
             "address": "mc.hypixel.net:25565",
             "minecraftVersion": "1.8.9",
+            "discord": {
+                "shortId": "1.12.2 Production Server",
+                "largeImageText": "WesterosCraft 1.12.2 Production Server",
+                "largeImageKey": "server-prod"
+            },
             "mainServer": true,
             "autoconnect": false,
             "modules": [
