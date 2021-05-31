@@ -262,7 +262,7 @@
                         {
             "id": "Dev:ffmpeg:1.8.2",
             "name": "ffmpeg",
-            "type": "executable",
+            "type": "ForgeMod",
             "required": {
                 "value": true
             },
@@ -275,7 +275,7 @@
         {
             "id": "Dev:youtube-dl:20.15.0",
             "name": "youtube-dl",
-            "type": "Executable",
+            "type": "ForgeMod",
             "required": {
                 "value": true
             },
