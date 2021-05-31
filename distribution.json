@@ -1,0 +1,151 @@
+{
+    "version": "1.0.1",
+    "java": {
+        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+    },
+    "rss": "https://westeroscraft.com/articles/index.rss",
+    "servers": [
+        {
+            "id": "Dev",
+            "name": "DevClient",
+            "description": "The Dev Client",
+            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
+            "version": "1.1",
+            "address": "mc.hypixel.net:25565",
+            "minecraftVersion": "1.8.9",
+            "mainServer": true,
+            "autoconnect": false,
+            "modules": [
+                {
+                    "id": "me.dev:dev:1.8.9-1.0.1",
+                    "name": "Dev Client",
+                    "type": "Client",
+                    "artifact": {
+                        "size": 4884700,
+                        "MD5": "90734a5a713e24902d24c45c15caa42c",
+                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/forge-1.12.2-14.23.5.2847-universal.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "net.sf.trove4j:trove4j:3.0.3",
+                            "name": "Trove4J",
+                            "type": "Library",
+                            "required": {
+                                "value": true
+                            },
+                            "artifact": {
+                                "size": 2523218,
+                                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/trove4j-3.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "java3d:vecmath:1.5.2",
+                            "name": "Vecmath",
+                            "type": "Library",
+                            "required": {
+                                "value": true
+                            },
+                            "artifact": {
+                                "size": 318956,
+                                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/vecmath-1.5.2.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.jopt-simple:jopt-simple:5.0.3",
+                            "name": "Jopt-simple",
+                            "type": "Library",
+                            "required": {
+                                "value": true
+                            },
+                            "artifact": {
+                                "size": 78175,
+                                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/jopt-simple-5.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "com.mojang:netty:1.6",
+                            "name": "netty",
+                            "type": "Library",
+                            "required": {
+                                "value": true
+                            },
+                            "artifact": {
+                                "size": 78175,
+                                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                                "url": "https://darkcyanbuoyantprogrammers.py201678.repl.co/netty-1.6.jar"
+                            }
+                        },
+                        {
+                            "id": "com.ibm.icu:icu4j-core-mojang:51.2",
+                            "name": "icu4j-core",
+                            "type": "Library",
+                            "required": {
+                                "value": true
+                            },
+                            "artifact": {
+                                "size": 78175,
+                                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                                "url": "https://darkcyanbuoyantprogrammers.py201678.repl.co/icu4j-core-mojang-51.2.jar"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Dev:ffmpeg:1.8.2",
+                    "name": "ffmpeg",
+                    "type": "executable",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 67046,
+                        "MD5": "59035365f7af35f599d1c4baade64d8b",
+                        "url": "https://darkcyanbuoyantprogrammers.py201678.repl.co/ffmpeg.exe"
+                    }
+                },
+                {
+                    "id": "Dev:youtube-dl:20.15.0",
+                    "name": "youtube-dl",
+                    "type": "Executable",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 7982,
+                        "MD5": "cc12cfe20febd1404345f5339e522cda",
+                        "url": "https://darkcyanbuoyantprogrammers.py201678.repl.co/youtube-dl.exe"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Dev:ffmpeg:1.8.2",
+            "name": "ffmpeg",
+            "type": "executable",
+            "required": {
+                "value": true
+            },
+            "artifact": {
+                "size": 67046,
+                "MD5": "59035365f7af35f599d1c4baade64d8b",
+                "url": "https://darkcyanbuoyantprogrammers.py201678.repl.co/ffmpeg.exe"
+            }
+        },
+        {
+            "id": "Dev:youtube-dl:20.15.0",
+            "name": "youtube-dl",
+            "type": "Executable",
+            "required": {
+                "value": true
+            },
+            "artifact": {
+                "size": 7982,
+                "MD5": "cc12cfe20febd1404345f5339e522cda",
+                "url": "https://darkcyanbuoyantprogrammers.py201678.repl.co/youtube-dl.exe"
+            }
+        }
+    ]
+}
